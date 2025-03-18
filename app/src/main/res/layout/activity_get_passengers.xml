@@ -83,7 +83,9 @@
         android:id="@+id/accum_list"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="ACCUMULATING PASSENGER LIST\n-----------------------------"
+        android:textAlignment="center"
+        android:text="ACCUMULATING PASSENGER LIST
+        \n-----------------------------"
         android:textSize="16sp"
         android:background="@color/grey"
         android:textColor="@color/yellow"

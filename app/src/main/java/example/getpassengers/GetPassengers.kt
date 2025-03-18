@@ -42,7 +42,7 @@ class GetPassengers : AppCompatActivity() {
         }
         val newPass = Passenger(fName, lName, phone)
         passList.add(newPass)
-        textPut.append(newPass.toString() + "\n")
+        textPut.append("\n" + newPass.toString())
         textFirst.text.clear()
         textLast.text.clear()
         textPhone.text.clear()
